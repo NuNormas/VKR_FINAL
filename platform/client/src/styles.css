@@ -1,0 +1,125 @@
+:root {
+  color: #1c1915;
+  background: #f3efe4;
+  font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+  line-height: 1.45;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button,
+.button {
+  background: #1c1915;
+  color: #f3efe4;
+  border: 0;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+}
+
+button.quiet,
+.quiet {
+  background: transparent;
+  color: #1c1915;
+  border-bottom: 1px solid #1c1915;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fffdf8;
+  border: 1px solid #c8bfb0;
+  padding: 0.45rem 0.55rem;
+}
+
+textarea {
+  min-height: 7rem;
+}
+
+.shell {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  border-bottom: 3px solid #9c2f2f;
+  margin-bottom: 1.5rem;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.75rem;
+}
+
+.stack {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #fffdf8;
+  color: #1c1915;
+  border: 1px solid #c8bfb0;
+  border-left: 6px solid #9c2f2f;
+  padding: 0.8rem 0.9rem;
+}
+
+.meta {
+  color: #5c564c;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+}
+
+.condition {
+  white-space: pre-wrap;
+  background: #fffdf8;
+  border: 1px solid #c8bfb0;
+  padding: 0.9rem;
+}
+
+.ok {
+  color: #1f6b4a;
+}
+
+.bad {
+  color: #9c2f2f;
+}
+
+.error {
+  color: #9c2f2f;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+label span {
+  display: block;
+  margin-bottom: 0.25rem;
+}
